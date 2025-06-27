@@ -1,19 +1,56 @@
 {
  
-  "name": "create-kevin-app",  
-  "version": "1.0.0",
+  "name": "create-kevin-app",
+ 
+  "version": "1.0.1",
+ 
   "description": "CLI pour créer un projet Next.js prêt à l'emploi",
+ 
   "bin": {
-    "create-kevin-app": "./index.js"
+ 
+   
+  "create-kevin-app": "./index.js"
+ 
   },
+ 
   "type": "module",
-  "keywords": ["cli", "nextjs", "starter", "tailwind", "eslint", "prettier"],
+ 
+  "keywords": [
+ 
+   
+  "cli",
+ 
+   
+  "nextjs",
+ 
+   
+  "starter",
+ 
+   
+  "tailwind",
+ 
+   
+  "eslint",
+ 
+   
+  "prettier"
+ 
+  ],
+ 
   "author": "PEKPELI KEVIN",
+ 
   "license": "MIT",
-
+ 
   "dependencies": {
-    "chalk": "^5.4.1",
-    "execa": "^9.6.0",
-    "inquirer": "^12.6.3"
+ 
+   
+  "chalk": "^5.4.1",
+ 
+   
+  "execa": "^9.6.0",
+ 
+   
+  "inquirer": "^12.6.3"
+ 
   }
 }
