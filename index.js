@@ -32,7 +32,8 @@ const run = async () => {
     '--ts',
     '--src-dir',
     '--import-alias',
-    '@/*'
+    '@/*',
+    '--turbo'
   ], { stdio: 'inherit' });
 
   // Étape 2 : Ajouter la config Prettier
